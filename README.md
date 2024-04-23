@@ -12,3 +12,24 @@ and install all the requirements.
 ```bash
 pip install -r requirements.txt
 ```
+
+## Steps
+You can move through existing branches using Git.
+```bash
+git checkout existing_branch
+```
+
+We will end up with the following branches.
+| Branch | Content |
+| ------------- |------------- |
+| main | It's our starting point, which contains just a notebook. |
+| step1_going_modular | In this step, we will rewrite our notebook to make our code modular. We will end up moving all code in separate files. |
+| step2_docker | We introduce a Dockerfile and isolate our code from the OS. |
+| step3_hydra | In this final step, we want to make our code more easily configurable. We will remove all variables and move them to a dedicated file. |
+
+### Optional steps
+In this lesson, we saw some very simple tools with which you can improve the reproducibility, portability, and reuse of your Deep Learning projects. Remember that there are dozens of other tools for every step of your project. Here are some ones:
+-  [DVC](http://dvc.org/): it allows to track your data changes. You can think about it as a Git for data.
+-  [Docker Hub](https://hub.docker.com/): you can publish your Docker images in public repositories the same way you publish code on Github.
+-  [Weights&Biases](https://wandb.ai/): it is a very simple and powerful tool to log all your experiments and parameters on a dashboard in the cloud.
+-  [MLFlow](https://mlflow.org/): it allows to keep track of your model versions as well as logging your training parameters.
