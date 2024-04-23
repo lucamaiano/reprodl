@@ -1,0 +1,9 @@
+# Folders
+data/
+experiments/
+models/
+
+# Other
+.devcontainer/
+.github/
+.DS_Store
