@@ -33,3 +33,6 @@ In this lesson, we saw some very simple tools with which you can improve the rep
 -  [Docker Hub](https://hub.docker.com/): you can publish your Docker images in public repositories the same way you publish code on Github.
 -  [Weights&Biases](https://wandb.ai/): it is a very simple and powerful tool to log all your experiments and parameters on a dashboard in the cloud.
 -  [MLFlow](https://mlflow.org/): it allows to keep track of your model versions as well as logging your training parameters.
+
+## Additional material
+You can learn how to [develop inside a Docker container](https://www.youtube.com/watch?v=cJbvcH0JNGA&list=PLUgFCKSZ1SbNTv09kjPdzha99VvU1o53w&index=14&ab_channel=codevev) in VS Code.
