@@ -1,0 +1,10 @@
+model: 'TinyVGG'
+
+# 'model'.pth filename
+model_name: "05_going_modular_script_mode_tinyvgg_model.pth"
+
+# Training configs
+num_epochs: 5
+batch_size: 32
+hidden_hunits: 10
+learning_rate: 0.001
